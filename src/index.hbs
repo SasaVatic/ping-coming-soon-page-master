@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png" />
+
+  <title>{{ htmlWebpackPlugin.options.title }}</title>
+</head>
+
+<body class="font-libre-franklin relative">
+  <div class="absolute px-2 w-2 h-screen bg-neutral-200 top-0 left-0"></div>
+  <main>
+    <section class="page text-center pt-20 pb-9">
+      <div class="px-2 max-w-2xl mx-auto lg:max-w-3xl">
+        <img src="./assets/images/logo.svg" alt="logo img" class="inline-block w-14 lg:w-22 lg:pt-1">
+        <div class="mt-8 font-light lg:mt-12">
+          <h2 class="text-md text-nobel lg:text-5xl lg:pt-1">We are launching <span
+              class="font-bold text-very-dark-blue">soon!</span></h2>
+          <h3 class="text-xs text-very-dark-blue mt-4 lg:text-xl lg:mt-5">Subscribe and get notified</h3>
+        </div>
+        <div class="mx-auto mt-7 max-w-md px-10 lg:max-w-none lg:px-14 lg:mt-10 lg:text-left">
+          <form class="form lg:flex">
+            <div class="lg:mr-4 w-full">
+              <input name="email"
+                class="form-input w-full rounded-full border-blue-haze border-1 block text-xs py-3 px-8 outline-none lg:py-4 lg:text-base"
+                placeholder="Your email address...">
+              <span name="error"
+                class="form-error mt-1 mb-6 tracking-wide hidden italic text-light-red text-tiny lg:text-xs lg:ml-8 lg:mb-0">
+                Please provide a valid email address
+              </span>
+            </div>
+            <button
+              class="block bg-blue rounded-full text-white mt-3 text-xs font-semibold py-3 w-full lg:w-50 lg:text-base lg:py-4 lg:mt-0 lg:shrink-0 lg:self-start hover:bg-cornflower-blue hover:shadow-md transition-colors">Notify
+              Me</button>
+          </form>
+        </div>
+        <div class="py-16 px-5 mb-14 lg:px-14 lg:pt-20 lg:pb-0">
+          <img src="./assets/images/illustration-dashboard.png" alt="" aria-hidden="true">
+        </div>
+        <div class="pt-1 lg:pt-5">
+          <a href="#"
+            class="text-blue border-whisper rounded-full border-1 w-7 h-7 cursor-pointer lg:w-8 lg:h-8 inline-flex justify-center items-center hover:text-white hover:bg-blue hover:border-none transition-colors">
+            <i class="fab fa-brands fa-facebook-f align-middle text-sm"></i>
+          </a>
+          <a href="#"
+            class="text-blue border-whisper rounded-full border-1 w-7 h-7 ml-3 cursor-pointer lg:w-8 lg:h-8 inline-flex justify-center items-center lg:ml-2 hover:text-white hover:bg-blue hover:border-none transition-colors">
+            <i class="fab fa-brands fa-twitter align-middle text-xs lg:text-sm"></i>
+          </a>
+          <a href="#"
+            class="text-blue border-whisper rounded-full border-1 w-7 h-7 ml-3 cursor-pointer lg:w-8 lg:h-8 inline-flex justify-center items-center lg:ml-2 hover:text-white hover:bg-blue hover:border-none transition-colors">
+            <i class="fab fa-brands fa-instagram align-middle"></i>
+          </a>
+        </div>
+        <div>
+          <p class="text-tiny text-gray mt-7 lg:text-xs lg:mt-6">&copy; Copyright Ping. All rights reserved.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="absolute top-1/2 -translate-y-40 right-full whitespace-nowrap text-xs -rotate-90 origin-right pt-3">
+    <p class="attribution">
+      Challenge by
+      <a class="text-blue underline font-semibold" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+        Mentor</a>. Coded
+      by <a class="text-blue underline font-semibold" href="https://github.com/SasaVatic" target="_blank">Saša Vatić</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
